@@ -1,8 +1,16 @@
+
+
+
 body {
     background-color: antiquewhite;
     padding: 0;
     display: flex;
     justify-items: center;
+    
+}
+
+.wraper {
+    display: flex;
     flex-direction: column;
 }
 
