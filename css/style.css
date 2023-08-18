@@ -40,7 +40,7 @@ body {
 }
 
 hr {
-    width: 100%;
+    width: 100vh;
     height: 2px;
     background-color: gray;
 }
