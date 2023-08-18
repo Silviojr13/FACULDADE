@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script defer src="Js/funcoes.js"></script>
+    </head>
+    <body>
+        <div class="superbox">
+            <div class="box">
+                <input class="inp"  type="text" id="valor1"/> 
+                <h2>+</h2>
+                <input class="inp" type="text" id="valor2"/>
+                <!-- função onclick chama a função somar em java script-->
+                <button onclick="somar()">somar</button>
+
+                <input class="inp" type="text" id="subtrair1"/>
+                <h2>-</h2>
+                <input class="inp" type="text" id="subtrair2"/>
+                <button onclick="subtrair()">subtrair</button>
+
+                <input class="inp" type="text" id="multiplicar1"/>
+                <h2>*</h2>
+                <input class="inp" type="text" id="multiplicar2"/>
+                <button onclick="multiplicar()">multiplicar</button>
+
+                <input class="inp" type="text" id="dividir1"/>
+                <h2>/</h2>
+                <input class="inp" type="text" id="dividir2"/>
+                <button onclick="dividir()">dividir</button>
+            </div>
+        </div>
+        
+        
+        
+    </body>
+</html>
