@@ -1,0 +1,13 @@
+body {
+    background-color: #fff; /* Cor de fundo padrão */
+    color: #000; /* Cor do texto padrão */
+  }
+
+  .button {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
