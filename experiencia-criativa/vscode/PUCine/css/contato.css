@@ -1,0 +1,124 @@
+/**{
+    border: 1px solid blue;
+}*/
+
+
+.box{
+
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    height: 685px;
+    width: 100%;
+    margin-top: 2.60%;
+    padding-left: 13.88%;
+
+}
+
+.escrita{
+
+    /* H2 */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 48px;
+    /* identical to box height, or 114% */
+
+
+    color: #FFFFFF;
+}
+
+.h5{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-bottom: 8px;
+    
+    
+    color: #FFFFFF;
+    
+}
+
+/* box-registro == campo onde tera os imput*/
+
+.box-registro{
+    margin-top: 40px;
+   display: flex;
+   gap:32px;
+
+}
+
+/* campo nome */
+
+.nome{
+
+    position: relative;
+    
+    height: 100%;
+    width: 100%;
+    max-width: 292px;
+    max-height: 36px;
+    outline: none;
+
+}
+/* filho */
+
+.nom{
+    width: 292px;
+    height: 36px;
+    outline-color: red;
+}
+
+/* campo email */
+
+.mensagem{
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+    max-width: 616px;
+    max-height: 123px;
+    
+
+}
+
+.mens{
+    height: 100%;
+    width: 100%;
+    padding-left: 16px !important;
+    padding-top: 8px;
+    outline: none;
+}
+
+/*input text == in-t */
+
+.in-t{
+
+    background: #3D3D3D;
+    border-radius: 16px;
+    border: 0;
+    padding-left: 44px;
+    outline: none;
+    
+}
+
+/* button */
+
+.button{
+    color: white;
+    width: 292px;
+    height: 36px;
+    background: #7A7A7A;
+    border-radius: 16px;
+    margin-top: 24px;
+    border: 0;
+}    
+
+.mail{
+    
+    position: absolute;
+    top: 20%;
+    margin-left: 16px;
+}
