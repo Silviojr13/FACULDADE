@@ -1,39 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Calculadora</title>
-        <link rel="stylesheet" href="css/style.css">
-        
-    </head>
-    <body>
-        <div class="superbox">
-            <div class="box">
-                <input class="inp"  type="text" id="valor1"/> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="superbox">
+
+        <div class="box">
+
+            <!--criando uma div para separar cada operação-->
+
+            <div class="soma">
+                <input class="inp" type="text" id="valor1" />
                 <h2>+</h2>
-                <input class="inp" type="text" id="valor2"/>
+                <input class="inp" type="text" id="valor2" />
                 <!-- função onclick chama a função somar em java script-->
                 <button onclick="somar()">somar</button>
+            </div>
 
-                <input class="inp" type="text" id="subtrair1"/>
+            <br>
+
+            <div class="subtrair">
+                <input class="inp" type="text" id="subtrair1" />
                 <h2>-</h2>
-                <input class="inp" type="text" id="subtrair2"/>
+                <input class="inp" type="text" id="subtrair2" />
                 <button onclick="subtrair()">subtrair</button>
+            </div>
 
-                <input class="inp" type="text" id="multiplicar1"/>
+            <br>
+
+            <div class="mutiplicar">
+                <input class="inp" type="text" id="multiplicar1" />
                 <h2>*</h2>
-                <input class="inp" type="text" id="multiplicar2"/>
+                <input class="inp" type="text" id="multiplicar2" />
                 <button onclick="multiplicar()">multiplicar</button>
+            </div>
 
-                <input class="inp" type="text" id="dividir1"/>
+            <br>
+            
+            <div class="dividir">
+                <input class="inp" type="text" id="dividir1" />
                 <h2>/</h2>
-                <input class="inp" type="text" id="dividir2"/>
+                <input class="inp" type="text" id="dividir2" />
                 <button onclick="dividir()">dividir</button>
             </div>
+            
         </div>
-        
-        
-        <script src="Js/funcoes.js"></script>
-    </body>
+    </div>
+
+
+    <script src="Js/funcoes.js"></script>
+</body>
+
 </html>

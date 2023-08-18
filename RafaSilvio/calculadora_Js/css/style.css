@@ -1,15 +1,61 @@
 .superbox{
     display: flex;
     flex-direction: column;
-    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13px;
 }
+
+
+/* eu defini os itens como colun e center na classe box*/
 
 .box{
     display: flex;
-
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .inp{
     width: 280px;
     border: solid #eee;
 }
+
+/* este é o css da classe soma*/
+
+.soma {
+    display: flex;
+    width: 500px;
+    height: 30px;
+    background-color: gray;
+    padding: 13px;
+
+}
+
+.subtrair {
+    display: flex;
+    width: 500px;
+    height: 30px;
+    background-color: gray;
+    padding: 13px;
+
+}
+
+.mutiplicar {
+    display: flex;
+    width: 500px;
+    height: 30px;
+    background-color: gray;
+    padding: 13px;
+
+}
+
+.dividir {
+    display: flex;
+    width: 500px;
+    height: 30px;
+    background-color: gray;
+    padding: 13px;
+
+}
+
