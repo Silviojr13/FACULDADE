@@ -1,0 +1,12 @@
+
+ no terminal para upar os commits basta utilizar os seguintes comandos amor
+
+ 1º  git add . 
+ 
+ 2º  git commit -m "<nome do commit>"
+
+ 3º git push -u origin master
+
+ e assim seus arquivos estarão salvos no meu github 
+
+ "  TE AMOO!!! ❤❤❤ "
