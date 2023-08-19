@@ -30,6 +30,8 @@
     height: 30px;
     background-color: gray;
     padding: 13px;
+    justify-content: space-around;
+    gap: 1;
 
 }
 
@@ -39,5 +41,7 @@
     height: 30px;
     background-color: gray;
     padding: 13px;
+    justify-content: space-around;
+    gap: 1;
 
 }
