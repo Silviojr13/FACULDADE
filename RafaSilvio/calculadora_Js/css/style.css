@@ -19,11 +19,12 @@
 .inp{
     width: 280px;
     border: solid #eee;
+    background-size: 3;
 }
 
 /* este é o css da classe soma*/
 
-.soma {
+.operacao {
     display: flex;
     width: 500px;
     height: 30px;
@@ -31,31 +32,3 @@
     padding: 13px;
 
 }
-
-.subtrair {
-    display: flex;
-    width: 500px;
-    height: 30px;
-    background-color: gray;
-    padding: 13px;
-
-}
-
-.mutiplicar {
-    display: flex;
-    width: 500px;
-    height: 30px;
-    background-color: gray;
-    padding: 13px;
-
-}
-
-.dividir {
-    display: flex;
-    width: 500px;
-    height: 30px;
-    background-color: gray;
-    padding: 13px;
-
-}
-

@@ -16,41 +16,70 @@
 
             <!--criando uma div para separar cada operação-->
 
-            <div class="soma">
-                <input class="inp" type="text" id="valor1" />
-                <h2 class="">+ 1</h2>
+            <div class="operacao">
+
+                <!--campo de inserção dos valores-->
+
+                <input class="inp" type="text" id="valor1" />     
                 <input class="inp" type="text" id="valor2" />
+
+                <!--fim do campo de inserção dos valores-->
+
                 <!-- função onclick chama a função somar em java script-->
-                <button onclick="somar()">Limpar</button>
+
+                <button class="button-action" onclick="somar()">Limpar</button>
+
+                <h1>=</h1>
+
+                <input type="text" id="resutadoOp1">
+
             </div>
 
             <br>
 
-            <div class="subtrair">
+            <div class="operacao">
+
+                <!--campo de inserção dos valores-->
+
                 <input class="inp" type="text" id="subtrair1" />
-                <h2>-</h2>
                 <input class="inp" type="text" id="subtrair2" />
-                <button onclick="subtrair()">subtrair</button>
+                
+                <!--fim do campo de inserção dos valores-->
+
+                <button class="button-action" onclick="subtrair()">Limpar</button>
+
             </div>
 
             <br>
 
-            <div class="mutiplicar">
+            <div class="operacao">
+
+                <!--campo de inserção dos valores-->
+
                 <input class="inp" type="text" id="multiplicar1" />
-                <h2>*</h2>
                 <input class="inp" type="text" id="multiplicar2" />
-                <button onclick="multiplicar()">multiplicar</button>
+
+                <!--fim do campo de inserção dos valores-->
+
+                <button class="button-action" onclick="multiplicar()">Limpar</button>
+                
             </div>
 
             <br>
-            
-            <div class="dividir">
+
+            <div class="operacao">
+
+                <!--campo de inserção dos valores-->
+
                 <input class="inp" type="text" id="dividir1" />
-                <h2>/</h2>
                 <input class="inp" type="text" id="dividir2" />
-                <button onclick="dividir()">dividir</button>
+
+                <!--fim do campo de inserção dos valores-->
+
+                <button class="button-action" onclick="dividir()">Limpar</button>
+
             </div>
-            
+
         </div>
     </div>
 
