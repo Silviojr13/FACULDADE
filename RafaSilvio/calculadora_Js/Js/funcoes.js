@@ -16,7 +16,7 @@ function subtrair (){
     var subtrair1 = parseInt(document.getElementById("subtrair1").value);
     var subtrair2 = parseInt(document.getElementById("subtrair2").value);
 
-    var resultOP2 = document.getElementById("resutadoOp1");
+    var resultOP2 = document.getElementById("resutadoOp2");
 
     var subtrair = subtrair1 - subtrair2;
 
@@ -27,7 +27,7 @@ function multiplicar (){
     var multiplicar1 = parseInt(document.getElementById("multiplicar1").value);
     var multiplicar2 = parseInt(document.getElementById("multiplicar2").value);
 
-    var resultOP3 = document.getElementById("resutadoOp1");
+    var resultOP3 = document.getElementById("resutadoOp3");
 
     var multiplicar = multiplicar1 * multiplicar2;
 
@@ -38,7 +38,7 @@ function dividir (){
     var dividir1 = parseInt(document.getElementById("dividir1").value);
     var dividir2 = parseInt(document.getElementById("dividir2").value);
 
-    var resultOP4 = document.getElementById("resutadoOp1");
+    var resultOP4 = document.getElementById("resutadoOp4");
 
     var dividir = dividir1 / dividir2;
 
