@@ -32,3 +32,12 @@
     padding: 13px;
 
 }
+
+.operacaoteste {
+    display: flex;
+    width: 600px;
+    height: 30px;
+    background-color: gray;
+    padding: 13px;
+
+}
