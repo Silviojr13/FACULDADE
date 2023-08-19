@@ -20,6 +20,8 @@
     width: 280px;
     border: solid #eee;
     background-size: 3;
+    border: black;
+    margin-right: 3px;
 }
 
 /* este é o css da classe soma*/
@@ -30,9 +32,6 @@
     height: 30px;
     background-color: gray;
     padding: 13px;
-    justify-content: space-around;
-    gap: 1;
-
 }
 
 .operacaoteste {
@@ -41,7 +40,8 @@
     height: 30px;
     background-color: gray;
     padding: 13px;
-    justify-content: space-around;
-    gap: 1;
+}
 
+.meio {
+    vertical-align: middle;
 }
