@@ -63,14 +63,14 @@ input {
     color: white;
 }
 
-.button-action.active {
+.button-action-clicked {
     background-color: #EE5000;
-    transition: 0.3s;
+   /* transition: 0.3s;*/
 }
 
-.button-result.active {
+.button-result-clicked {
     background-color: #EE5000;
-    transition: 0.3s;
+   /* transition: 0.3s;*/
 }
 
 .meio {
