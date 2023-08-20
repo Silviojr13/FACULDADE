@@ -1,3 +1,11 @@
+body {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: #363636;
+}
+
+
 button {
     padding: 0;
     margin: 0;
@@ -8,19 +16,17 @@ input {
     padding: 0;
     margin: 0;
     border: 0;
+    outline: none;
+    padding-left: 10px;
 }
 
-input::placeholder {
-    padding: 10px;
-}
 
 .superbox {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 13px;
-    background-color: grey;
+    min-height: 100vh; 
 }
 
 
@@ -29,11 +35,19 @@ input::placeholder {
 .box {
     display: flex;
     flex-direction: column;
-    padding-top: 13px;
+    padding: 6px;
+    background-color: #C0C0C0;
+    border-radius: 4px;
+    gap: 3px;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    text-align: center; /* Centraliza texto */
+    max-width: 300px; /* Defina um valor máximo para largura, se desejar */
+    width: 100%;
 }
 
 .inp {
-    width: 50px;
+    width: 40px;
     height: 37px;
     flex-shrink: 0;
     margin-right: 3px;
@@ -41,7 +55,7 @@ input::placeholder {
 }
 
 .inp2 {
-    width: 89px;
+    width: 79px;
     height: 37px;
     flex-shrink: 0;
     margin-right: 3px;
@@ -52,7 +66,7 @@ input::placeholder {
 
 .operacao {
     display: flex;
-    height: 40px;
+    height: 37px;
     
 }
 
