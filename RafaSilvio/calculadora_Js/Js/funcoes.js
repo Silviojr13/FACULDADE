@@ -1,4 +1,4 @@
-function somar (){
+function somar() {
 
     var valor1 = parseInt(document.getElementById("valor1").value);
     var valor2 = parseInt(document.getElementById("valor2").value);
@@ -13,8 +13,8 @@ function somar (){
     resultOP1.value = soma;
 }
 
-function limpar1 (){
-    
+function limpar1() {
+
     var resultado = document.getElementById("resutadoOp1");
     var inputValor1 = document.getElementById("valor1");
     var inputValor2 = document.getElementById("valor2");
@@ -24,7 +24,7 @@ function limpar1 (){
     inputValor2.value = "";
 }
 
-function subtrair (){
+function subtrair() {
     var subtrair1 = parseInt(document.getElementById("subtrair1").value);
     var subtrair2 = parseInt(document.getElementById("subtrair2").value);
 
@@ -35,8 +35,8 @@ function subtrair (){
     resultOP2.value = subtrair
 }
 
-function limpar2 (){
-    
+function limpar2() {
+
     var resultado = document.getElementById("resutadoOp2");
     var inputValor1 = document.getElementById("subtrair1");
     var inputValor2 = document.getElementById("subtrair2");
@@ -46,7 +46,7 @@ function limpar2 (){
     inputValor2.value = "";
 }
 
-function multiplicar (){
+function multiplicar() {
     var multiplicar1 = parseInt(document.getElementById("multiplicar1").value);
     var multiplicar2 = parseInt(document.getElementById("multiplicar2").value);
 
@@ -57,8 +57,8 @@ function multiplicar (){
     resultOP3.value = multiplicar
 }
 
-function limpar3 (){
-    
+function limpar3() {
+
     var resultado = document.getElementById("resutadoOp3");
     var inputValor1 = document.getElementById("multiplicar1");
     var inputValor2 = document.getElementById("multiplicar2");
@@ -68,7 +68,7 @@ function limpar3 (){
     inputValor2.value = "";
 }
 
-function dividir (){
+function dividir() {
     var dividir1 = parseInt(document.getElementById("dividir1").value);
     var dividir2 = parseInt(document.getElementById("dividir2").value);
 
@@ -79,8 +79,8 @@ function dividir (){
     resultOP4.value = dividir
 }
 
-function limpar4 (){
-    
+function limpar4() {
+
     var resultado = document.getElementById("resutadoOp4");
     var inputValor1 = document.getElementById("dividir1");
     var inputValor2 = document.getElementById("dividir2");
@@ -90,8 +90,21 @@ function limpar4 (){
     inputValor2.value = "";
 }
 
-function cor() {
-    
-    var corr = document.getElementById("color");
-    corr.style.backgroundColor = "#EE5000";  
+function changeButtonColor(button) {
+    // Resetar a cor de todos os botões
+    var buttons = document.querySelectorAll('.button-action, .button-result');
+    buttons.forEach(btn => {
+        btn.style.backgroundColor = '#FF8000'; // Cor padrão
+    });
+
+    // Definir a cor para o botão clicado
+    button.style.backgroundColor = '#EE5000'; // Cor desejada
 }
+
+// Adicionar um evento de clique a todos os botões
+var allButtons = document.querySelectorAll('.button-action, .button-result');
+allButtons.forEach(button => { //o método forEach percorre todos os botões//
+    button.addEventListener('click', function () {
+        changeButtonColor(this);
+    });
+});
