@@ -56,12 +56,14 @@ input {
     width: 37px;
     height: 37px;
     background: #FF8000;
+    color: white;
 }
 
 .button-result {
-    width: 50px;
+    width: 89px;
     height: 37px;
     background: #FF8000;
+    color: white;
 }
 
 .operacaoteste {
