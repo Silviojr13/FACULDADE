@@ -51,6 +51,12 @@ input {
     background: #FF8000;
 }
 
+.button-result {
+    width: 50px;
+    height: 37px;
+    background: #FF8000;
+}
+
 .operacaoteste {
     display: flex;
     width: 600px;

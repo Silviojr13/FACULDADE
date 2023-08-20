@@ -9,6 +9,7 @@ function somar (){
 
     var soma = valor1 + valor2;
 
+
     resultOP1.value = soma;
 }
 
@@ -43,4 +44,14 @@ function dividir (){
     var dividir = dividir1 / dividir2;
 
     resultOP4.value = dividir
+}
+
+function limpar (){
+    
+    var resultado = document.getElementById("resutadoOp1");
+
+    
+    resultado.value = "Resultado"
+    
+    
 }
