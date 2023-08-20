@@ -20,6 +20,11 @@ input {
     padding-left: 10px;
 }
 
+p {
+    transform: rotate(180deg);
+ 
+}
+
 
 .superbox {
     display: flex;
@@ -87,6 +92,3 @@ input {
     cursor: pointer;
 }
 
-.meio {
-    vertical-align: middle;
-}
