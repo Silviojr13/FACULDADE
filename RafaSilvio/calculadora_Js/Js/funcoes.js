@@ -13,6 +13,17 @@ function somar (){
     resultOP1.value = soma;
 }
 
+function limpar (){
+    
+    var resultado = document.getElementById("resutadoOp1");
+    var inputValor1 = document.getElementById("valor1");
+    var inputValor2 = document.getElementById("valor2");
+
+    resultado.value = "";
+    inputValor1.value = "";
+    inputValor2.value = "";
+}
+
 function subtrair (){
     var subtrair1 = parseInt(document.getElementById("subtrair1").value);
     var subtrair2 = parseInt(document.getElementById("subtrair2").value);
@@ -24,6 +35,17 @@ function subtrair (){
     resultOP2.value = subtrair
 }
 
+function limpar (){
+    
+    var resultado = document.getElementById("resutadoOp2");
+    var inputValor1 = document.getElementById("subtrair1");
+    var inputValor2 = document.getElementById("subtrair2");
+
+    resultado.value = "";
+    inputValor1.value = "";
+    inputValor2.value = "";
+}
+
 function multiplicar (){
     var multiplicar1 = parseInt(document.getElementById("multiplicar1").value);
     var multiplicar2 = parseInt(document.getElementById("multiplicar2").value);
@@ -33,6 +55,17 @@ function multiplicar (){
     var multiplicar = multiplicar1 * multiplicar2;
 
     resultOP3.value = multiplicar
+}
+
+function limpar (){
+    
+    var resultado = document.getElementById("resutadoOp3");
+    var inputValor1 = document.getElementById("multiplicar1");
+    var inputValor2 = document.getElementById("multiplicar2");
+
+    resultado.value = "";
+    inputValor1.value = "";
+    inputValor2.value = "";
 }
 
 function dividir (){
@@ -48,10 +81,11 @@ function dividir (){
 
 function limpar (){
     
-    var resultado = document.getElementById("resutadoOp1");
+    var resultado = document.getElementById("resutadoOp4");
+    var inputValor1 = document.getElementById("dividir1");
+    var inputValor2 = document.getElementById("dividir2");
 
-    
-    resultado.value = ""
-    
-    
+    resultado.value = "";
+    inputValor1.value = "";
+    inputValor2.value = "";
 }
