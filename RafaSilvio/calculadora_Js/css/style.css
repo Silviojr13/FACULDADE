@@ -10,6 +10,10 @@ input {
     border: 0;
 }
 
+input::placeholder {
+    padding: 10px;
+}
+
 .superbox {
     display: flex;
     flex-direction: column;
@@ -41,6 +45,7 @@ input {
     height: 37px;
     flex-shrink: 0;
     margin-right: 3px;
+    margin-left: 3px;
 }
 
 /* este é o css da classe soma*/
