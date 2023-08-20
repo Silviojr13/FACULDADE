@@ -94,7 +94,7 @@ function changeButtonColor(button) {
     // Trocar a cor do botão clicado
     button.style.backgroundColor = '#EE5000'; // Cor desejada
 
-    // Resetar a cor após 1 segundo (1000 milissegundos)
+    // Resetar a cor após 300 milisegundo
     setTimeout(function() {
         button.style.backgroundColor = '#FF8000'; // Cor padrão
     }, 300); // Tempo em milissegundos

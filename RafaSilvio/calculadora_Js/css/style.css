@@ -57,7 +57,7 @@ input {
     background: #FF8000;
     color: white;
     cursor: pointer;
-    
+    margin-right: 3px;
 }
 
 .button-result {
