@@ -23,10 +23,7 @@ input {
 /* eu defini os itens como colun e center na classe box*/
 
 .box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    display: 7;
 }
 
 .inp {
@@ -55,14 +52,14 @@ input {
 .button-action {
     width: 37px;
     height: 37px;
-    background: #FF8000;
+    background: #EE5000;
     color: white;
 }
 
 .button-result {
     width: 89px;
     height: 37px;
-    background: #FF8000;
+    background: #EE5000;
     color: white;
 }
 
