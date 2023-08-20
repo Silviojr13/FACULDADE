@@ -33,6 +33,7 @@ input {
     height: 37px;
     flex-shrink: 0;
     margin-right: 3px;
+    padding: 10px;
 }
 
 .inp2 {
@@ -54,6 +55,7 @@ input {
     height: 37px;
     background: #FF8000;
     color: white;
+    cursor: pointer;
 }
 
 .button-result {
@@ -61,6 +63,7 @@ input {
     height: 37px;
     background: #FF8000;
     color: white;
+    cursor: pointer;
 }
 
 .meio {

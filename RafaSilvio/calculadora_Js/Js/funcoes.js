@@ -91,14 +91,13 @@ function limpar4() {
 }
 
 function changeButtonColor(button) {
-    // Resetar a cor de todos os botões
-    var buttons = document.querySelectorAll('.button-action, .button-result');
-    buttons.forEach(btn => {
-        btn.style.backgroundColor = '#FF8000'; // Cor padrão
-    });
-
-    // Definir a cor para o botão clicado
+    // Trocar a cor do botão clicado
     button.style.backgroundColor = '#EE5000'; // Cor desejada
+
+    // Resetar a cor após 1 segundo (1000 milissegundos)
+    setTimeout(function() {
+        button.style.backgroundColor = '#FF8000'; // Cor padrão
+    }, 300); // Tempo em milissegundos
 }
 
 // Adicionar um evento de clique a todos os botões
