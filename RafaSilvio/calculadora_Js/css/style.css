@@ -1,4 +1,16 @@
-.superbox{
+button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+input {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.superbox {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,18 +21,17 @@
 
 /* eu defini os itens como colun e center na classe box*/
 
-.box{
+.box {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.inp{
-    width: 280px;
-    border: solid #eee;
-    background-size: 3;
-    border: black;
+.inp {
+    width: 50px;
+    height: 37px;
+    flex-shrink: 0;
     margin-right: 3px;
 }
 
@@ -32,6 +43,12 @@
     height: 30px;
     background-color: gray;
     padding: 13px;
+}
+
+.button-action {
+    width: 37px;
+    height: 37px;
+    background: #FF8000;
 }
 
 .operacaoteste {
