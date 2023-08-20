@@ -51,7 +51,7 @@ function limpar (){
     var resultado = document.getElementById("resutadoOp1");
 
     
-    resultado.value = "Resultado"
+    resultado.value = ""
     
     
 }

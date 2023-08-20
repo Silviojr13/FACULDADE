@@ -35,6 +35,13 @@ input {
     margin-right: 3px;
 }
 
+.inp2 {
+    width: 89px;
+    height: 37px;
+    flex-shrink: 0;
+    margin-right: 3px;
+}
+
 /* este é o css da classe soma*/
 
 .operacao {
