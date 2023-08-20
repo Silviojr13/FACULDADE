@@ -89,3 +89,9 @@ function limpar4 (){
     inputValor1.value = "";
     inputValor2.value = "";
 }
+
+function cor() {
+    
+    var corr = document.getElementById("color");
+    corr.style.backgroundColor = "#EE5000";  
+}
