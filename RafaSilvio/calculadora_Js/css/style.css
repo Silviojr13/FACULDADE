@@ -16,6 +16,7 @@ input {
     align-items: center;
     justify-content: center;
     margin-top: 13px;
+    background-color: grey;
 }
 
 
@@ -47,9 +48,8 @@ input {
 .operacao {
     display: flex;
     width: 600px;
-    height: 30px;
-    background-color: gray;
-    padding: 13px;
+    background-color: rgb(247, 242, 242);
+    margin-bottom: 3px;
 }
 
 .button-action {
