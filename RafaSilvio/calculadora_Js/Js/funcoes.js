@@ -13,7 +13,7 @@ function somar (){
     resultOP1.value = soma;
 }
 
-function limpar (){
+function limpar1 (){
     
     var resultado = document.getElementById("resutadoOp1");
     var inputValor1 = document.getElementById("valor1");
@@ -35,7 +35,7 @@ function subtrair (){
     resultOP2.value = subtrair
 }
 
-function limpar (){
+function limpar2 (){
     
     var resultado = document.getElementById("resutadoOp2");
     var inputValor1 = document.getElementById("subtrair1");
@@ -57,7 +57,7 @@ function multiplicar (){
     resultOP3.value = multiplicar
 }
 
-function limpar (){
+function limpar3 (){
     
     var resultado = document.getElementById("resutadoOp3");
     var inputValor1 = document.getElementById("multiplicar1");
@@ -79,7 +79,7 @@ function dividir (){
     resultOP4.value = dividir
 }
 
-function limpar (){
+function limpar4 (){
     
     var resultado = document.getElementById("resutadoOp4");
     var inputValor1 = document.getElementById("dividir1");
