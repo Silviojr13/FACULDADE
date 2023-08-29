@@ -9,6 +9,10 @@ body {
     
 }
 
+.cab {
+    display: flex;
+}
+
 .wraper {
     display: flex;
     flex-direction: column;
