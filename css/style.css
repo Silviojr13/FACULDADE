@@ -14,7 +14,8 @@ body {
 }
 
 .menu{
-    width: 30px;
+    position: absolute;
+    width: 150px;
     background-color: grey;
 }
 
