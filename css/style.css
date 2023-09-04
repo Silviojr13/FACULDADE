@@ -16,6 +16,7 @@ body {
 .menu{
     position: absolute;
     width: 150px;
+    height: 100hv;
     background-color: grey;
 }
 
