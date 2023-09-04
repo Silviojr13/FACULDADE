@@ -10,4 +10,14 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("/html_import/topbar.html")
+    .then((response) => response.text())
+    .then((data) => {
+      const menuPlaceholder = document.getElementById("topbar-placeholder");
+      menuPlaceholder.innerHTML = data;
+    })
+    .catch((error) => {
+      console.error("Erro ao carregar o menu:", error);
+    });
+});
